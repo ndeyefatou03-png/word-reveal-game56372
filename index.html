@@ -476,6 +476,7 @@
 
   .pw-input-wrap {
     display: flex;
+    flex-direction: column;
     gap: 10px;
     width: 100%;
     max-width: 340px;
@@ -507,13 +508,14 @@
     color: var(--bg);
     border: none;
     border-radius: 10px;
-    padding: 12px 20px;
+    padding: 14px 20px;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 1rem;
     cursor: pointer;
     transition: all 0.2s;
     white-space: nowrap;
+    width: 100%;
   }
 
   .pw-btn:hover { background: #f5ff8a; transform: translateY(-1px); }
